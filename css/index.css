@@ -1,4 +1,4 @@
-.display{
-  display: flex;
-  justify-content: space-between;
+.layout{
+  width: 80%;
+  margin: auto;
 }
