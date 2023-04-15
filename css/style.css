@@ -1,0 +1,11 @@
+/* footer And Nav Style */
+.fotr h5 {
+  color: #144e90;
+}
+.nav-link:hover {
+  color: #144e90;
+  font-weight: bold;
+}
+.footer-hover:hover {
+  color: #144e90 !important;
+}
