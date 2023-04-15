@@ -1,157 +1,313 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home Page</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-  <link rel="stylesheet" href="./css/index.css">
-</head>
-<body>
-<!-- start of nav -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid display">     
-      <div class="the-logo">
-        <a class="navbar-brand the-logo" href="./index.html"><img src="./images/logo.png" alt="logo"></a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <!-- start of nav -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <div class="the-logo">
+          <a class="navbar-brand the-logo" href="./index.html"
+            ><img src="./images/logo.png" alt="logo"
+          /></a>
+        </div>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+            <li class="nav-item login">
+              <a class="nav-link" href="./login.html">Login</a>
+            </li>
+            <li class="nav-item register">
+              <a class="btn btn-primary" href="./register.html">Register</a>
+            </li>
+          </ul>
+        </div>
       </div>
-      
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./services.html">Services</a>
-          </li>
-          <li class="nav-item">
-                <a class="nav-link" href="./contact.html">Contact</a>
-              </li>
-              <li class="nav-item login">
-                <a class="nav-link" href="./login.html">Login</a>
-              </li>
-              <li class="nav-item register ">
-                <a class="btn btn-primary" href="./register.html">Register</a>
-              </li>
-            </ul>
+    </nav>
+    <!-- end of nav -->
+
+    <!-- Start of Carousel -->
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="./images/hero.png"
+            alt="hero-section-image"
+            style="width: 100vw; max-height: 30%"
+          />
+          <div class="container hero-section">
+            <div class="carousel-caption text-start" style="width: 50%">
+              <p>TOTAL HEALTH CARE SOLUTION</p>
+              <h1>Your Most Trusted Health Partner</h1>
+              <p>
+                Welcome to our dental clinic! We are thrilled to have you as a
+                potential patient. Our team of experienced dentists and staff
+                are dedicated to providing the highest quality dental care in a
+                comfortable and welcoming environment.
+              </p>
+              <p>
+                <a class="btn btn-lg btn-primary" href="./contact.html"
+                  >Make An Appointment</a
+                >
+              </p>
+            </div>
           </div>
-        </div>    
-  </nav>
-<!-- end of nav -->  
-
-
-<!-- Start of Carousel -->      
-<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="./images/hero (1).png" alt="hero-section-image" style="width:100vw; max-height:30%">
-      <div class="container hero-section">
-        <div class="carousel-caption text-start"  style="width:50%">
-        <p>
-          TOTAL HEALTH CARE SOLUTION
-        </p>
-        <h1>Your Most Trusted Health Partner</h1>
-        <p>
-          Welcome to our dental clinic! We are thrilled to have you as a potential patient.
-          Our team of experienced dentists and staff are dedicated to providing the highest
-          quality dental care in a comfortable and welcoming environment.
-        </p>
-        <p><a class="btn btn-lg btn-primary" href="./contact.html">Make An Appointment</a></p>
         </div>
       </div>
     </div>
-  </div>
-</div>
-<!-- End of Carousel -->
+    <!-- End of Carousel -->
 
-<div class="layout">
-
-<div class="container-fluid" style="display: flex;">
-  <div class="two-pics">
-    <img src="./images/image_1.png" alt="doctor image"><br>
-    <img src="./images/image_2.png" alt="a doctor with his patient">
-  </div>
-  <div class="one-image">
-    <img src="./images/image_3.png" alt="two doctors image" style="margin-top:40px ;">
-    <h1 style="display: inline;">Personal Care & Healthy living</h1>
-    <p style="display: inline;">
-      Welcome to our dental clinic! We are thrilled
-      to have you as a potential patient Our team
-      of experienced dentists and staff.
-    </p>
-    <a class="btn btn-lg btn-primary" href="./contact.html">Make An Appointment</a>
-  </div>
-</div>
-
-<!-- start of footer -->
-<div class="container">
-  <footer class="py-5">
-    <div class="row">
-      <div class="col-6 col-md-2 mb-3">
-        <h5>Section</h5>
-        <ul class="nav flex-column">
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-        </ul>
+    <div class="layout">
+      <div class="container doctors-section">
+        <div class="two-pics">
+          <img src="./images/image_1.png" alt="doctor image" /><br />
+          <img src="./images/image_2.png" alt="a doctor with his patient" />
+        </div>
+        <div class="one-image">
+          <img
+            src="./images/image_3.png"
+            alt="two doctors image"
+            style="margin-top: 40px"
+          />
+        </div>
+        <div class="info">
+          <h1>Personal Care & Healthy living</h1>
+          <p>
+            Welcome to our dental clinic! We are thrilled to have you as a
+            potential patient Our team of experienced dentists and staff.
+          </p>
+          <a
+            class="btn btn-lg btn-primary btn-doctor-section"
+            href="./contact.html"
+            >Make An Appointment</a
+          >
+        </div>
       </div>
-
-      <div class="col-6 col-md-2 mb-3">
-        <h5>Section</h5>
-        <ul class="nav flex-column">
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-        </ul>
-      </div>
-
-      <div class="col-6 col-md-2 mb-3">
-        <h5>Section</h5>
-        <ul class="nav flex-column">
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-        </ul>
-      </div>
-
-      <div class="col-md-5 offset-md-1 mb-3">
-        <form>
-          <h5>Subscribe to our newsletter</h5>
-          <p>Monthly digest of what's new and exciting from us.</p>
-          <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-            <label for="newsletter1" class="visually-hidden">Email address</label>
-            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-            <button class="btn btn-primary" type="button">Subscribe</button>
+      <!-- Start our team of doctors  -->
+      <div class="Doctors-section">
+        <h1 style="text-align: center; color: #144e90">Our Services</h1>
+        <div class="con-doctors">
+          <div class="her">
+            <img src="images/dentist 1.png" alt="" class="photo" />
+            <p>24 hour services</p>
+            <h3>Online Appointment</h3>
+            <h6>
+              Get All time support for emergency. We have introduced the
+              princiiple of family medicine.
+            </h6>
           </div>
-        </form>
+          <div class="her">
+            <img src="images/Worktime.png" alt="" class="photo" />
+            <p>Time Schedule</p>
+            <h3>Working Hours</h3>
+            <h6>
+              Our dental care clinic in Jordan offers flexible working hours
+              From 9AM-6PM from Sunday to Thursday, with potential Saturday
+              appointments.
+            </h6>
+          </div>
+          <div class="her">
+            <img src="images/phone.svg" alt="" class="photo" />
+            <p>Emergency Cases</h>
+            <h3>0785150283</h3>
+            <h6>
+              Get all time support for emergency. We have introduced the
+              principle of family medicine . Get connected with us for any
+              urgency
+            </h6>
+          </div>
+          <div class="her">
+            <img src="images/Teeth.png" alt="" class="photo" />
+            <p>Services</p>
+            <h3>Full Services</h3>
+            <h6>
+              Dental services encompass a wide range of procedures and
+              treatments, including preventive care, restorative work, cosmetic
+              enhancements, and more
+            </h6>
+          </div>
+        </div>
       </div>
+      <!-- Team Card -->
+      <!-- <div class="card pmd-card text-center">
+        <div class="card-body">
+          <img
+            src="https://pro.propeller.in/assets/images/Keith-Dowd.png"
+            class="rounded-circle img-fluid mb-3"
+            title=""
+            alt=""
+          />
+          <h2 class="card-title">Keith Dowd</h2>
+          <p class="card-subtitle mb-3">Peach &amp; Pie</p>
+          <p class="card-text">
+            Amorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae
+            nibh nisl. Cras etitikis mauris eget lorem ultricies ferme ntum a
+            inti diam.
+          </p>
+        </div>
+      </div> -->
+      <!-- End our team of doctors -->
+
+      <!-- Start Services Section  -->
+
+      <!-- End Services Section  -->
+      <!-- start of footer -->
+      <div class="container">
+        <footer class="py-5">
+          <div class="row">
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Section</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted">Home</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted">Features</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted">Pricing</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted">FAQs</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted">About</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Section</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted">Home</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted">Features</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted">Pricing</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted">FAQs</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted">About</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Section</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted">Home</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted">Features</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted">Pricing</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted">FAQs</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted">About</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-md-5 offset-md-1 mb-3">
+              <form>
+                <h5>Subscribe to our newsletter</h5>
+                <p>Monthly digest of what's new and exciting from us.</p>
+                <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                  <label for="newsletter1" class="visually-hidden"
+                    >Email address</label
+                  >
+                  <input
+                    id="newsletter1"
+                    type="text"
+                    class="form-control"
+                    placeholder="Email address"
+                  />
+                  <button class="btn btn-primary" type="button">
+                    Subscribe
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <div
+            class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top"
+          >
+            <p>&copy; 2022 Company, Inc. All rights reserved.</p>
+            <ul class="list-unstyled d-flex">
+              <li class="ms-3">
+                <a class="link-dark" href="#"
+                  ><svg class="bi" width="24" height="24">
+                    <use xlink:href="#twitter" /></svg
+                ></a>
+              </li>
+              <li class="ms-3">
+                <a class="link-dark" href="#"
+                  ><svg class="bi" width="24" height="24">
+                    <use xlink:href="#instagram" /></svg
+                ></a>
+              </li>
+              <li class="ms-3">
+                <a class="link-dark" href="#"
+                  ><svg class="bi" width="24" height="24">
+                    <use xlink:href="#facebook" /></svg
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+      <!-- end of footer -->
     </div>
 
-    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-      <p>&copy; 2022 Company, Inc. All rights reserved.</p>
-      <ul class="list-unstyled d-flex">
-        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
-        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
-        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
-      </ul>
-    </div>
-  </footer>
-</div>
-<!-- end of footer -->
-</div>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
