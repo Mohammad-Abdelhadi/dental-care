@@ -1,3 +1,11 @@
+
+.btn-primary{
+    background: #144e90;
+  }
+  .btn-primary:hover{
+    background: #144e90;
+  font-weight: bold;
+  }
 .collapse{
     margin-left: 10%;
     justify-content: space-between;

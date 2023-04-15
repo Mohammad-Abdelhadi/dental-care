@@ -196,3 +196,11 @@ body {
           .footer-hover:hover {
             color: #144e90 !important;
           }
+          
+.btn-primary{
+    background: #144e90;
+  }
+  .btn-primary:hover{
+    background: #144e90;
+  font-weight: bold;
+  }
