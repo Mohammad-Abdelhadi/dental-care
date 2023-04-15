@@ -1,43 +1,8 @@
-.collapse{
-   margin-left: 10%;
-   justify-content: space-between;
-}
-.collapse li:hover{
-    background-color: #b8cde9;
-    color: white;
-    border-radius: 1rem;
-    -webkit-border-radius: 1rem;
-    -moz-border-radius: 1rem;
-    -ms-border-radius: 1rem;
-    -o-border-radius: 1rem;
-}
-.navbar-nav {
-   justify-content: space-between;
-   width: 55%;
-}
-.form-inline{
-    margin-right: 5%;
-    width: 15%;
-    justify-content: space-between;
-}
-.form-inline >button{
-    background-color: #213a66;
-    color: white;
-}
-
-.form-inline >a{
-    color: #213a66;
-    font-weight: bold;
-}
-
-a{
-    color: #213a66;
-}
 
 .bg-image{
     display: flex;
     flex-direction: column;
-    background-image: url('/dental-care/images/recep4.png');
+    background-image: url('./dental-care/images/recep4.png');
     background-size: cover;
     height:75vh;
     background-color: rgba(153, 143, 143, 0.6);
@@ -95,7 +60,7 @@ a{
     padding: 0.8rem;
     border: 1px gray solid;
     background-color: white;
-   color: black;
+    color: black;
 }
 .col-12 textarea{
     width: 95%;
@@ -118,23 +83,23 @@ a{
     background-color:#b8cde9;
     margin-top: 2%;
 }
-
-main{
-}
-
-.marg-footer{
-    margin-left: 5%;
-    margin-right: 5%;
-}
-.phonefooter{
-    text-align: right
-}
 li{
     list-style: none;
 }
 .icon{
     font-size: 2rem;
+    color: #213a66;
 }
-.map1{
-    width: 100%;
+.text-decoration-none{
+  color: blue;
+}
+.h3{
+    color: #213a66;
+}
+.h1{
+    color: #213a66;
+}
+.nav li{
+    color: #213a66;
+    font-weight: bold;
 }
