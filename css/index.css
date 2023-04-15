@@ -62,14 +62,13 @@
   -o-border-radius: 16px;
 }
 .her h6 {
-  max-width: 90%;
   text-align: center;
-  font-size: 10px;
+  font-size: 14px;
 }
 .her p,
 h6 {
   color: #acb2b7;
-  opacity: 0.8;
+  font-weight: 300;
 }
 .her h3 {
   padding-bottom: 10px;
@@ -77,3 +76,10 @@ h6 {
   color: white;
 }
 
+.btn-primary {
+  background: #144e90;
+}
+.btn-primary:hover {
+  background: #144e90;
+  font-weight: bold;
+}

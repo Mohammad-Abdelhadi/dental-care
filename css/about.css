@@ -1,5 +1,6 @@
 @import url("style.css");
 
+
 .text {
   background-color: rgb(226, 235, 246);
   font-size: 130%;
@@ -56,5 +57,14 @@
 @media (min-width: 576.5px) and (max-width: 1200px) {
   body {
     font-size: 30px;
+  }
+
+
+  .btn-primary{
+    background: #144e90;
+  }
+  .btn-primary:hover{
+    background: #144e90;
+  font-weight: bold;
   }
 }
