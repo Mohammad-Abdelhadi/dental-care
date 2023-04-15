@@ -1,0 +1,26 @@
+.collapse{
+    margin-left: 10%;
+    justify-content: space-between;
+ }
+ .navbar-nav {
+    justify-content: space-between;
+    width: 55%;
+ }
+ .form-inline{
+     margin-right: 5%;
+     width: 15%;
+     justify-content: space-between;
+ }
+ .form-inline >button{
+     background-color: #213a66;
+     color: white;
+ }
+ 
+ .form-inline >a{
+     color: #213a66;
+     font-weight: bold;
+ }
+ 
+ a{
+    color: #213a66;
+ }
