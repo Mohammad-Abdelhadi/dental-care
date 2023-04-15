@@ -1,0 +1,123 @@
+.collapse{
+    margin-left: 10%;
+    justify-content: space-between;
+ }
+ .navbar-nav {
+    justify-content: space-between;
+    width: 55%;
+ }
+ .form-inline{
+     margin-right: 5%;
+     width: 15%;
+     justify-content: space-between;
+ }
+ .form-inline >button{
+     background-color: #213a66;
+     color: white;
+ }
+ 
+ .form-inline >a{
+     color: #213a66;
+     font-weight: bold;
+ }
+ 
+ a{
+    color: #213a66;
+ }
+ 
+
+
+
+html{
+    font-size: 80%;
+    overflow-x: hidden;
+}
+body{
+    color: #213A66;
+}
+.circle {
+    width: 50px;
+    height: 50px;
+    background-color: #D5E6F7;
+    border-radius: 50%;
+
+    position: relative;
+}
+
+.circle img {
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    left: 20px;
+    top: 70%;
+    transform: translateY(-50%);
+}
+.container-section{
+    background-color: #FCFCFC;
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;  /*top| left and right | bottom */
+    margin-bottom: 3rem;
+    display: grid;
+   gap: 1rem;
+    grid-template-columns: repeat(3, 25% 35% 35%);
+    grid-template-rows: repeat(3,30%);
+    
+
+
+}
+@media screen and (max-width: 980px) {
+    .container-section  {
+        display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 2rem;
+   
+  }}
+  @media screen and (max-width: 980px) {
+    .container-section .img {
+        width: 100%;
+        height: 100%;
+    
+   
+  }}
+
+  
+.col1{
+}
+.col2{
+    padding: 2rem;
+   
+    
+
+    }
+    .col3{
+        padding: 2rem;
+   
+        }
+
+        .tips-layer h4{
+            padding: 0.5rem;
+            font-size: 2rem;
+        }
+        .tips-layer p{
+            color:#213A66;
+            font-size:1.5rem;
+            padding: 0.5rem;
+           
+        }
+        .tips-layer a{
+            color:#4F98E2;
+            font-size:1.2rem;
+            padding: 0.6rem;
+           
+        }
+        /* footer And Nav Style */
+.fotr h5 {
+    color: #144e90;
+  }
+  .nav-link:hover {
+    color: #144e90;
+    font-weight: bold;
+  }
+  .footer-hover:hover {
+    color: #144e90 !important;
+  }
