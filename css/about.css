@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @import url("style.css");
 
 .text {
@@ -11,17 +10,6 @@
 }
 .image-container {
   position: relative;
-=======
-.text{ background-color: rgb(226, 235, 246); 
-    font-size: 130%; 
-    border-radius: 8px; 
-    margin-right: 100px; 
-    margin-left: 100px; 
-    color: rgb(64, 86, 124); 
-}
-.image-container {
-    position: relative;
->>>>>>> 7fa4b4a857cf5157ac44a98110253dbd7065a7f4
 }
 .label {
   position: absolute;
@@ -54,7 +42,6 @@
   transform: translate(-50%, -50%);
   z-index: 1;
 }
-<<<<<<< HEAD
 .skils {
   background-color: rgb(15, 58, 108);
   color: white;
@@ -71,23 +58,3 @@
     font-size: 30px;
   }
 }
-=======
-.skils{
-    background-color: rgb(15, 58, 108);
-    color: white;
-}
-
-@media (max-width: 576px)  {
-    body{
-        font-size: 10px;
-
-    }
- }
-
- @media (min-width: 576.5px)  and  (max-width: 1200px){
-    body{
-        font-size: 30px;
-
-    }
- }
->>>>>>> 7fa4b4a857cf5157ac44a98110253dbd7065a7f4
