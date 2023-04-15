@@ -1,0 +1,60 @@
+@import url("style.css");
+
+.text {
+  background-color: rgb(226, 235, 246);
+  font-size: 130%;
+  border-radius: 8px;
+  margin-right: 100px;
+  margin-left: 100px;
+  color: rgb(64, 86, 124);
+}
+.image-container {
+  position: relative;
+}
+.label {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.image-container img {
+  position: relative;
+  margin: 3%;
+  width: 91%;
+  left: 2%;
+  border-radius: 40px;
+}
+.button {
+  position: absolute;
+  left: 74%;
+  top: 65%;
+  padding-left: 4%;
+  font-size: 26px;
+  padding-right: 4%;
+  color: blue;
+  border-color: blue;
+  border-radius: 8px;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+.skils {
+  background-color: rgb(15, 58, 108);
+  color: white;
+}
+
+@media (max-width: 576px) {
+  body {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 576.5px) and (max-width: 1200px) {
+  body {
+    font-size: 30px;
+  }
+}
