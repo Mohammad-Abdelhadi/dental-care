@@ -131,13 +131,8 @@ a {
   margin-top: 2%;
 }
 
-main {
-}
 
-.marg-footer {
-  margin-left: 5%;
-  margin-right: 5%;
-}
+
 .phonefooter {
   text-align: right;
 }
@@ -149,98 +144,6 @@ li {
 }
 .map1 {
   width: 100%;
-}
-
-.bg-image{
-    display: flex;
-    flex-direction: column;
-    background-image: url('../images/recep4.png');
-    background-size: cover;
-    height:75vh;
-    background-color: rgba(153, 143, 143, 0.6);
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-.background{
-    background-color: #f4fafc;
-    padding-left:4%;
-    padding-bottom: 2%;
-    margin-top: 4%;
-    padding-top: 1%;
-    border: 1px #213a66 solid;
-}
-.txt1{
-    width: 40%;
-    background-color:white;
-    color: black;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    padding: 2%;
-}
-
-.txt2{
-    background-color: #213a66;
-    color: white;
-    width: 30%;
-    margin-right: 50%;
-    margin-top: 3%;
-    padding: 1%;
-}
-
-.welcom {
-    color: #213a66;
-}
-
-.form-select-lg{
-    width: 90%;
-    padding: 0.8rem;
-    color: gray;
-    background-color: white;
-}
-.col-12 input{
-    width: 95%;
-    background-color: #f4fafc ;
-    border: 1px gray solid;
-    padding: 0.8rem;
-    color: gray;
-   
-}
-.col-6 input{
-    width: 90%;
-    padding: 0.8rem;
-    border: 1px gray solid;
-    background-color: white;
-    color: black;
-}
-.col-12 textarea{
-    width: 95%;
-    color: black;
-    background-color: white;
-}
-.col-12 button{
-    background-color: #213a66;
-    float: right;
-    margin-right: 5%;
-}
-.hint{
-    color: #213a66;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.col-12 button:hover{
-    background-color: #213a66
-}
-.info{
-    background-color:#b8cde9;
-    margin-top: 2%;
-}
-li{
-    list-style: none;
-}
-.icon{
-    font-size: 2rem;
-    color: #213a66;
 }
 .text-decoration-none{
   color: blue;
