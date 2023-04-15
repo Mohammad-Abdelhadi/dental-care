@@ -2,7 +2,7 @@
 .bg-image{
     display: flex;
     flex-direction: column;
-    background-image: url('/dental-care/images/recep4.png');
+    background-image: url('../images/recep4.png');
     background-size: cover;
     height:75vh;
     background-color: rgba(153, 143, 143, 0.6);
