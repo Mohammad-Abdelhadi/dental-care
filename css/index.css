@@ -1,4 +1,79 @@
-.layout{
-  width: 80%;
-  margin: auto;
+.layout {
+  width: 98%;
 }
+.doctors-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.info h1 {
+  font-size: 2rem;
+  color: #144e90;
+}
+.info p {
+  color: #c2c5c7;
+  width: 70%;
+}
+.btn-doctor-section {
+  max-width: 33%;
+  text-align: center;
+  background-color: #144e90;
+}
+.btn-doctor-section:hover {
+  font-weight: bold;
+  padding: 10px;
+  background: #144e90;
+}
+.info a {
+  font-size: 14px;
+}
+.Doctors-section {
+  width: 100%;
+}
+.con-doctors {
+  background-color: rgb(255, 255, 255);
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 34px;
+}
+.her {
+  padding: 30px 0;
+  /* Rectangle 36 */
+
+  background-color: #144e90;
+  /* Inside auto layout */
+
+  border: 2px solid #144e90;
+  border-radius: 16px;
+  max-width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+}
+.her h6 {
+  max-width: 90%;
+  text-align: center;
+  font-size: 10px;
+}
+.her p,
+h6 {
+  color: #acb2b7;
+  opacity: 0.8;
+}
+.her h3 {
+  padding-bottom: 10px;
+  font-size: 1.5rem;
+  color: white;
+}
+
