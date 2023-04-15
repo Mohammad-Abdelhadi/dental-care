@@ -9,3 +9,6 @@
 .footer-hover:hover {
   color: #144e90 !important;
 }
+.header .nav-item .nav-link {
+  margin-left: 40px;
+}
