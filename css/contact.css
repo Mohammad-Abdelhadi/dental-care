@@ -131,13 +131,8 @@ a {
   margin-top: 2%;
 }
 
-main {
-}
 
-.marg-footer {
-  margin-left: 5%;
-  margin-right: 5%;
-}
+
 .phonefooter {
   text-align: right;
 }
@@ -149,4 +144,17 @@ li {
 }
 .map1 {
   width: 100%;
+}
+.text-decoration-none{
+  color: blue;
+}
+.h3{
+    color: #213a66;
+}
+.h1{
+    color: #213a66;
+}
+.nav li{
+    color: #213a66;
+    font-weight: bold;
 }
